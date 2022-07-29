@@ -18,7 +18,7 @@ spec:
         app: backstage-demo
     spec:
       containers:
-        - image: 417618740333.dkr.ecr.us-east-2.amazonaws.com/dev-backstage-417618740333-ecr-repository:latest
+        - image: 644659814164.dkr.ecr.us-east-2.amazonaws.com/backstage-repo:latest
           imagePullPolicy: Always
           envFrom:
             - secretRef:
