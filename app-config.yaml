@@ -27,8 +27,8 @@ backend:
   database:
     client: pg
     connection:
-      host: ${POSTGRES_HOST}
-      port: ${POSTGRES_PORT}
+      host: backstage.c4fpdxi4y2p1.us-east-2.rds.amazonaws.com
+      port: 5432
       user: ${POSTGRES_USER}
       password: ${POSTGRES_PASSWORD}
       # https://node-postgres.com/features/ssl
@@ -58,6 +58,16 @@ kubernetes:
       clusters:
         - url: "https://5C218C2F704CC6897D0A2113ADFAA786.gr7.us-east-2.eks.amazonaws.com"
           name: "backstage-cluster"
+          authProvider: 'aws'
+          skipTLSVerify: true
+          #skipMetricsLookup: true
+        - url: "https://C752675297CE542578BADA34327F9CC3.gr7.us-east-1.eks.amazonaws.com"
+          name: "my-cluster"
+          authProvider: 'aws'
+          skipTLSVerify: true
+          #skipMetricsLookup: true
+        - url: "https://534572FBEA648B47080C05909F3E1858.gr7.us-east-1.eks.amazonaws.com"
+          name: "eks-amp-prometheus-grafana-demo"
           authProvider: 'aws'
           skipTLSVerify: true
           #skipMetricsLookup: true
