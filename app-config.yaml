@@ -27,8 +27,8 @@ backend:
   database:
     client: pg
     connection:
-      host: backstage.c4fpdxi4y2p1.us-east-2.rds.amazonaws.com
-      port: 5432
+      host: "backstage.c4fpdxi4y2p1.us-east-2.rds.amazonaws.com"
+      port: "5432"
       user: ${POSTGRES_USER}
       password: ${POSTGRES_PASSWORD}
       # https://node-postgres.com/features/ssl
