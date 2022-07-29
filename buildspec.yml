@@ -24,7 +24,7 @@ phases:
   pre_build:
     commands:
       - echo Logging into Amazon EKS...
-      - aws eks --region $AWS_DEFAULT_REGION update-kubeconfig --name $AWS_CLUSTER_NAME
+      - aws eks --region $AWS_DEFAULT_REGION update-kubeconfig --name $EKS_CLUSTER_NAME
       - echo check config 
       - kubectl config view --minify
       - echo check kubectl access
