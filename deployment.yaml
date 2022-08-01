@@ -25,4 +25,4 @@ spec:
                 name: postgres-secrets
           name: backstage-demo
           ports:
-            - containerPort: 7007
+            - containerPort: 3000
