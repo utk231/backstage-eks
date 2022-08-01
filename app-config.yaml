@@ -121,6 +121,10 @@ catalog:
     # Backstage example organization groups
     - type: url
       target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/acme/org.yaml
+    
+    # Backstage example groups and users
+    - type: url
+      target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/acme-corp.yaml
 
     # Backstage example templates
     - type: url
