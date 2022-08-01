@@ -12,6 +12,15 @@ app.get('/status', (req, res) => {
     res.send('ok')
   })
 
+app.use(
+  helmet.contentSecurityPolicy({
+      directives: {
+          'script-src-attr': null
+      }
+  })
+);
+
+
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
