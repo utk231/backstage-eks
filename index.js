@@ -12,13 +12,13 @@ app.get('/status', (req, res) => {
     res.send('ok')
   })
 
-app.use(
-  helmet.contentSecurityPolicy({
-      directives: {
-          'script-src-attr': null
-      }
-  })
-);
+// app.use(
+//   helmet.contentSecurityPolicy({
+//       directives: {
+//           'script-src-attr': null
+//       }
+//   })
+// );
 
 
 
