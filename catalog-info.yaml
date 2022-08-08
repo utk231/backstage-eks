@@ -6,7 +6,7 @@ metadata:
  
      # catalog-info.yaml (backstage)
   annotations:
-    backstage.io/kubernetes-id: "petstore"
+    backstage.io/kubernetes-id: "backstage-demo"
 
 
 spec:
