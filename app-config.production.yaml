@@ -1,8 +1,8 @@
 app:
   # Should be the same as backend.baseUrl when using the `app-backend` plugin
-  baseUrl: http://localhost:7007
+  baseUrl: http://a754eb2d4efdd4dee91bbefee90d4e78-d63e558f2999ac1e.elb.us-east-2.amazonaws.com
 
 backend:
-  baseUrl: http://localhost:7007
+  baseUrl: http://a754eb2d4efdd4dee91bbefee90d4e78-d63e558f2999ac1e.elb.us-east-2.amazonaws.com
   listen:
     port: 7007

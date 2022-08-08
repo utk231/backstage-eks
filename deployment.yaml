@@ -1,6 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  annotations:
+    backstage.io/kubernetes-id: "petstore"
+    backstage.io/kubernetes-label-selector: 'app'
   labels:
     app.kubernetes.io/name: backstage-deployment
     app.kubernetes.io/instance: backstage-instance
