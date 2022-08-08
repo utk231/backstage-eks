@@ -15,7 +15,7 @@ phases:
       - echo 'Check kubectl version'
       - kubectl version --short --client
       - sudo npm install --global yarn
-      - yarn install --frozen-lockfile
+      - yarn install
       - yarn tsc
       - yarn build
       #- chmod +x eks_cicd/prereqs.sh
