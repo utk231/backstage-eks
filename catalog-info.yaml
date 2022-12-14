@@ -1,21 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-demo
-  description: An example of a Backstage application.
- 
-     # catalog-info.yaml (backstage)
   annotations:
-    backstage.io/kubernetes-id: "backstage-demo"
-
-
+    backstage.io/kubernetes-id: backstage-demo
+  name: backstage-demo
 spec:
-  type: website
-  owner: john@example.com
-  lifecycle: experimental
-
-
-  requirements:
-    - key: "node.kubernetes.io/instance-type"
-      operator: In
-      values: ["m5.large"]
+  lifecycle: production
+  owner: my-team
+  type: service
