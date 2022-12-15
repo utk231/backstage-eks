@@ -4,7 +4,6 @@ metadata:
   name: backstage-demo
   annotations:
     backstage.io/kubernetes-id: backstage-demo
-    backstage.io/kubernetes-label-selector: 'app=myapp'
 spec:
   lifecycle: experimental
   owner: john@example.com
