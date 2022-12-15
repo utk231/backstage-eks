@@ -5,7 +5,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: backstage-demo
 spec:
-  lifecycle: experimental
-  owner: john@example.com
   type: website
+  lifecycle: production
+  owner: user:guest
 
