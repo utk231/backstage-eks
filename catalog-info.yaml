@@ -2,8 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    backstage.io/kubernetes-id: backstage-demo
-  name: backstage-demo
+    backstage.io/kubernetes-id: petstore
 spec:
   lifecycle: production
   owner: my-team
