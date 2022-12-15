@@ -3,8 +3,8 @@ kind: Component
 metadata:
   name: backstage-demo
   annotations:
-    backstage.io/kubernetes-id: petstore
+    backstage.io/kubernetes-id: backstage-demo
 spec:
-  lifecycle: production
-  owner: my-team
-  type: service
+  lifecycle: experimental
+  owner: john@example.com
+  type: website
