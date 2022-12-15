@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: backstage-demo
   annotations:
-    backstage.io/kubernetes-id: backstage-demo
+   backstage.io/kubernetes-id: backstage-demo
 spec:
   type: website
   lifecycle: production
